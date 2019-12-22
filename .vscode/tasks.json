@@ -1,0 +1,51 @@
+{
+    "version": "2.0.0",
+    "tasks":[
+        {
+            "label": "main",
+            "command": "g++",
+            "args": [
+                "-g",
+                "D:/Projects/Data_structures/Base_binary_search_tree/main.cpp",
+                "D:/Projects/Data_structures/Base_binary_search_tree/Tree.cpp",
+                "-o",
+                "D:/Projects/Data_structures/Base_binary_search_tree/main.exe"
+            ],
+            "type": "shell",
+            "group": "build",
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "label": "F",
+            "command": "g++",
+            "args": [
+                "-g",
+                "D:/Projects/Data_structures/Base_binary_search_tree/F.cpp",
+                "-o",
+                "D:/Projects/Data_structures/Base_binary_search_tree/F.exe"
+            ],
+            "type": "shell",
+            "group": "build",
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "label": "G",
+            "command": "g++",
+            "args": [
+                "-g",
+                "D:/Projects/Data_structures/Base_binary_search_tree/G.cpp",
+                "-o",
+                "D:/Projects/Data_structures/Base_binary_search_tree/G.exe"
+            ],
+            "type": "shell",
+            "group": "build",
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+    ]
+}
